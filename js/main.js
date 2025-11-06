@@ -29,10 +29,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       // Tampilkan notifikasi
       if (hasil) {
-        tampilkanAlert(" Data berhasil disimpan!", "success");
+        tampilkanAlert("Data berhasil disimpan!", "success");
         form.reset();
       } else {
-        tampilkanAlert(" Gagal menyimpan data!", "danger");
+        tampilkanAlert("Gagal menyimpan data!", "danger");
       }
     });
   }
